@@ -26,7 +26,7 @@ class Main(Ui_MainWindow, QMainWindow):
             qp.end()
 
     def draw_element(self, qp):
-        qp.setBrush(QColor('Yellow'))
+        qp.setBrush(QColor("Yellow"))
         x, y = random.randint(1, 600), random.randint(1, 600)
         if x >= 300:
             max_x = 600 - x
