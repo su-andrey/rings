@@ -3,14 +3,14 @@ import sys
 
 from PyQt5.QtGui import QPainter, QColor
 from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5 import uic
 
-from Ul import Ui_MainWindow
 
 
-class Main(Ui_MainWindow, QMainWindow):
+class Main(QMainWindow):
     def __init__(self):
-        super().__init__()
-        self.setupUi(self)
+        super(Main, self).__init__()
+        uic.loadUi('UI', self)
         self.setting = False
         self.pushButton.clicked.connect(self.cond)
 
