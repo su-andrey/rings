@@ -12,6 +12,8 @@ class Main(Ui_MainWindow, QMainWindow):
         super().__init__()
         self.setupUi(self)
         self.setting = False
+        self.colors = ['Red', 'Blue', 'Orange', 'Yellow', 'Black', 'Green', 'Purple', 'Brown', 'Magenta']
+
         self.pushButton.clicked.connect(self.cond)
 
     def cond(self):
@@ -26,7 +28,7 @@ class Main(Ui_MainWindow, QMainWindow):
             qp.end()
 
     def draw_element(self, qp):
-        qp.setBrush(QColor("Yellow"))
+        qp.setBrush(QColor(random.choice(self.colors)))
         x, y = random.randint(1, 600), random.randint(1, 600)
         if x >= 300:
             max_x = 600 - x
