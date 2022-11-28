@@ -12,7 +12,7 @@ class Main(Ui_MainWindow, QMainWindow):
         super().__init__()
         self.setupUi(self)
         self.setting = False
-        self.colors = ['Red', 'Blue', 'Orange', 'Yellow', 'Black', 'Green', 'Purple', 'Brown', 'Magenta']
+        self.colors = ["Red", 'Blue', 'Orange', 'Yellow', 'Black', 'Green', 'Purple', 'Brown', 'Magenta']
 
         self.pushButton.clicked.connect(self.cond)
 
