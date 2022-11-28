@@ -3,17 +3,15 @@ import sys
 
 from PyQt5.QtGui import QPainter, QColor
 from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5 import uic
 
-from Ul import Ui_MainWindow
 
 
-class Main(Ui_MainWindow, QMainWindow):
+class Main(QMainWindow):
     def __init__(self):
-        super().__init__()
-        self.setupUi(self)
+        super(Main, self).__init__()
+        uic.loadUi('Ul', self)
         self.setting = False
-        self.colors = ["Red", 'Blue', 'Orange', 'Yellow', 'Black', 'Green', 'Purple', 'Brown', 'Magenta']
-
         self.pushButton.clicked.connect(self.cond)
 
     def cond(self):
@@ -28,7 +26,7 @@ class Main(Ui_MainWindow, QMainWindow):
             qp.end()
 
     def draw_element(self, qp):
-        qp.setBrush(QColor(random.choice(self.colors)))
+        qp.setBrush(QColor('Yellow'))
         x, y = random.randint(1, 600), random.randint(1, 600)
         if x >= 300:
             max_x = 600 - x
