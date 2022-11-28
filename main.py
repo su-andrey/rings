@@ -3,17 +3,16 @@ import sys
 
 from PyQt5.QtGui import QPainter, QColor
 from PyQt5.QtWidgets import QApplication, QMainWindow
-
 from Ul import Ui_MainWindow
+import random
 
 
-class Main(Ui_MainWindow, QMainWindow):
+class Main(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
         self.setting = False
+        self.setupUi(self)
         self.colors = ['Red', 'Blue', 'Orange', 'Yellow', 'Black', 'Green', 'Purple', 'Brown', 'Magenta']
-
         self.pushButton.clicked.connect(self.cond)
 
     def cond(self):
