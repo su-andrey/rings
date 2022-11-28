@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3f983a-38e0-49a8-83e9-c26ae49dee1d" name="Changes" comment="добавил UI.py final" />
+    <list default="true" id="e379ca2a-fde5-42e6-9e2d-a308229731a5" name="Changes" comment="Git и желтые окружности">
+      <change beforePath="$PROJECT_DIR$/Ul.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectId" id="2Ho60tnXlZFncHPS025w7iGEySs" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="rings" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Andrey\AppData\Local\Microsoft\WindowsApps\python3.10.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -49,65 +42,29 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9f3f983a-38e0-49a8-83e9-c26ae49dee1d" name="Changes" comment="" />
-      <created>1668938870054</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1668938870054</updated>
-    </task>
-    <task id="LOCAL-00001" summary="try this">
-      <created>1668940866527</created>
+    <task id="LOCAL-00001" summary="Git и желтые окружности">
+      <created>1669655893397</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1668940866527</updated>
+      <updated>1669655893397</updated>
     </task>
-    <task id="LOCAL-00002" summary="try this">
-      <created>1668940922557</created>
+    <task id="LOCAL-00002" summary="Git и желтые окружности">
+      <created>1669655985918</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1668940922557</updated>
+      <updated>1669655985918</updated>
     </task>
-    <task id="LOCAL-00003" summary="final">
-      <created>1668941052943</created>
+    <task id="LOCAL-00003" summary="Git и желтые окружности">
+      <created>1669656073068</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1668941052943</updated>
+      <updated>1669656073069</updated>
     </task>
-    <task id="LOCAL-00004" summary="добавил UI.py">
-      <created>1669381299640</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669381299640</updated>
-    </task>
-    <task id="LOCAL-00005" summary="добавил UI.py">
-      <created>1669381349630</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1669381349630</updated>
-    </task>
-    <task id="LOCAL-00006" summary="добавил UI.py final">
-      <created>1669381665855</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1669381665855</updated>
-    </task>
-    <task id="LOCAL-00007" summary="добавил UI.py final">
-      <created>1669381901136</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1669381901136</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,10 +80,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="try this" />
-    <MESSAGE value="final" />
-    <MESSAGE value="добавил UI.py" />
-    <MESSAGE value="добавил UI.py final" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил UI.py final" />
+    <MESSAGE value="Git и желтые окружности" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git и желтые окружности" />
   </component>
 </project>
