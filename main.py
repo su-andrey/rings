@@ -10,7 +10,7 @@ from PyQt5 import uic
 class Main(QMainWindow):
     def __init__(self):
         super(Main, self).__init__()
-        uic.loadUi("Ul", self)
+        uic.loadUi('Ul', self)
         self.setting = False
         self.pushButton.clicked.connect(self.cond)
 
